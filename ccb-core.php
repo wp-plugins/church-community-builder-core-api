@@ -2,15 +2,15 @@
 /**
  * Church Community Builder Core API
  *
- * @link              http://jaredcobb.com/ccb-core
+ * @link              http://www.wpccb.com
  * @since             0.9.0
  * @package           CCB_Core
  *
  * @wordpress-plugin
  * Plugin Name:       Church Community Builder Core API
- * Plugin URI:        http://jaredcobb.com/ccb-core/
+ * Plugin URI:        http://www.wpccb.com
  * Description:       A plugin to provide a core integration of the Church Community Builder API into WordPress custom post types
- * Version:           0.9.1
+ * Version:           0.9.2
  * Author:            Jared Cobb
  * Author URI:        http://jaredcobb.com/
  * License:           GPL-2.0+

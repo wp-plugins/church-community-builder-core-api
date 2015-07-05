@@ -3,7 +3,7 @@ Contributors: jaredcobb
 Tags: ccb, church, api, chms
 Requires at least: 3.0.1
 Tested up to: 4.2.2
-Stable tag: 0.9.1
+Stable tag: 0.9.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ Provides a core integration to the Church Community Builder API.
 
 Church Community Builder Core API *synchronizes* your church data to WordPress [custom post types](https://codex.wordpress.org/Custom_Post_Types).
 This plugin is geared toward developers (or advanced WordPress users who aren't afraid to get into a little bit of code).
+
+Find out more at [http://www.wpccb.com/](http://www.wpccb.com).
 
 = Why Use This Plugin? =
 
@@ -34,7 +36,7 @@ your theme, widgets, or even your own plugins!
 
 1. Upload the entire plugin folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. You'll find a settings page under Settings > Church Community Builder Core API
+1. You'll find a settings page in a sidebar menu titled "CCB Core API"
 1. Enter your Church Community Builder software subdomain
 1. Enter your Church Community Builder API credentials
 1. Enable the synchronizations you'd like
@@ -51,7 +53,7 @@ alter your theme to *take advantage* of this data.
 
 You'll need to ensure your [group settings](https://support.churchcommunitybuilder.com/customer/portal/articles/361764-editing-groups)
 allow the group to be publicly listed. A great way to cross reference if your group is publicly visible is to visit
-http://[your-subdomain].ccbchurch.com/w_group_list.php and see if the missing group shows up there.
+*yoursubdomain*.ccbchurch.com/w_group_list.php and see if the missing group shows up there.
 
 == Screenshots ==
 
@@ -59,6 +61,11 @@ http://[your-subdomain].ccbchurch.com/w_group_list.php and see if the missing gr
 2. screenshot-2.png
 
 == Changelog ==
+
+= 0.9.2 =
+* Added tooltips to some settings to help explain the functionality
+* Added better defaults for date ranges
+* Updated the plugin web site to http://www.wpccb.com
 
 = 0.9.1 =
 * Fixed an issue where some web hosts were not saving encypted passwords
