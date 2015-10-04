@@ -2,8 +2,8 @@
 Contributors: jaredcobb
 Tags: ccb, church, api, chms
 Requires at least: 3.0.1
-Tested up to: 4.3.0
-Stable tag: 0.9.5
+Tested up to: 4.3.1
+Stable tag: 0.9.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ your theme, widgets, or even your own plugins!
 * Cached data (extremely fast)
 * Works in the background (never interrupts you or your visitors)
 * Secure (API communication is encypted, and so are your credentials)
+
+= Documentation =
+
+The [http://www.wpccb.com/documentation/](official documentation) has more information, including code samples, hooks, filters, and links to tutorials.
 
 == Installation ==
 
@@ -61,6 +65,10 @@ allow the group to be publicly listed. A great way to cross reference if your gr
 2. screenshot-2.png
 
 == Changelog ==
+
+= 0.9.6 =
+* Added automatic flushing of rewrite rules when custom post type settings are changed
+* Added link to official documentation in README and About page
 
 = 0.9.5 =
 * Added an option to import Group Images as the Featured Image (no longer referencing the CCB CDN location which expires quickly)
